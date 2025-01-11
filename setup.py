@@ -18,7 +18,7 @@ import setuptools
 
 
 _deps = [
-    # "transformers>=4.46.1,<=4.46.1",
+    "transformers @ git+https://github.com/RohanAwhad/transformers.git@t5-attn-upgrade",
     "torch",
     "sentencepiece",
     "descript-audio-codec",
